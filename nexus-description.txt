@@ -31,7 +31,7 @@ No UE4SS? You can instead set the game's Steam Launch Options to:
 [size=4][b]What the exe actually does (read before trusting a random exe)[/b][/size]
 Shader Sentinel is a single small external program. It does [b]not[/b] inject into the game, hook anything, or touch any game files. It detects compilation from the outside by watching two things: the game process's CPU usage, and write activity in your GPU driver's shader cache folders. When both go quiet, compilation is over. The overlay is a plain transparent always-on-top window — the same mechanism Steam and Discord notifications use. No network connections, nothing written to disk, and it exits by itself when done.
 
-[b]The complete source code ships in the archive[/b] (one C# file, one Lua file) and builds with the compiler already installed on every Windows machine — run Source\build.cmd and you're running your own build instead of mine.
+[b]The complete source code ships in the archive[/b] (one C# file, one Lua file) and builds with the compiler already installed on every Windows machine — run Source\build.cmd and you're running your own build instead of mine. The project is also on GitHub: [url=https://github.com/cameron-ostrom/oblivion-shader-sentinel]cameron-ostrom/oblivion-shader-sentinel[/url]
 
 [size=4][b]Known limits[/b][/size]
 [list]
