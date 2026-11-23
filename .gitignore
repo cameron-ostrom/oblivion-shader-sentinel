@@ -1,0 +1,6 @@
+# Driver shader-cache backups from forced-recompile testing
+cache-backup/
+
+# Build outputs and release artifacts (distributed via Nexus / GitHub Releases)
+*.exe
+*.zip
